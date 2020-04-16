@@ -17,8 +17,8 @@ function(data, var_list = NULL) {
   factor_levels <- sapply(temp, function(x) {length(unique(x))})
   non_binary <- names(factor_levels>2)
   characterVars_ordered <-characterVars_haven[characterVars_haven %in% non_binary]
-  temp2 <- as.data.table(purrr::map(temp[,..characterVars_ordered], ordered))
-  suppressWarnings(temp[,names(temp2)] <- temp2)
+  #temp2 <- as.data.table(purrr::map(temp[,..characterVars_ordered], ordered))
+  #suppressWarnings(temp[,names(temp2)] <- temp2)
   temp3 <- data[, !characterVars_haven, with=FALSE]
   new_data <- cbind(temp, temp3) #merge back with the continuous variables
   return(new_data)
