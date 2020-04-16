@@ -1,10 +1,10 @@
 Package: covid.nssn
 Type: Package
-Title: What the package does (short line)
+Title: functions for cover
 Version: 1.0
 Date: 2020-04-15
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Author: Benjamin Hartmann
+Maintainer: hartmabs@iu.edu
 Description: More about what it does (maybe more than one line)
 License: What license is it under?
 RoxygenNote: 7.1.0.9000
