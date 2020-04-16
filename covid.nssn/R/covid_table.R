@@ -12,7 +12,7 @@ function(group_var, ind_var, data,
                                        prop.c = column,
                                        prop.t = total,
                                        prop.chisq = FALSE,
-                                       dnn = c(deparse(substitute(ind_var)),
-                                               deparse(substitute(group_var)))))
+                                       dnn = c(deparse(substitute(group_var)),
+                                               deparse(substitute(ind_var)))))
   }
 }
