@@ -1,10 +1,12 @@
 Package: covid.nssn
 Type: Package
-Title: functions for cover
+Title: functions for COVID
 Version: 1.0
 Date: 2020-04-15
-Author: Benjamin Hartmann
-Maintainer: hartmabs@iu.edu
-Description: More about what it does (maybe more than one line)
+Authors@R: person("Benjamin", "Hartmann", email = "hartmabs@iu.edu",
+                  role = c("aut", "cre"))
+Author: Benjamin Hartmann [aut, cre]
+Maintainer: Benjamin Hartmann <hartmabs@iu.edu>
+Description: General functions for survey
 License: What license is it under?
 RoxygenNote: 7.1.0.9000

@@ -2,9 +2,11 @@
 \alias{explore_data_from_labelled}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
+From SPSS straight into Burro
 %%  ~~function to do ... ~~
 }
 \description{
+Allows you to upload .sav file directly into burro shiny app
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{

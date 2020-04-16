@@ -2,9 +2,11 @@
 \alias{covid_skim}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
+Skimming COVID-nssn
 %%  ~~function to do ... ~~
 }
 \description{
+skims over covid data easily
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{

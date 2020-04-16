@@ -2,9 +2,11 @@
 \alias{label_to_factor}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
+Labeled to Factor
 %%  ~~function to do ... ~~
 }
 \description{
+Function that converts haven_labelled to factor variables with levels
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{

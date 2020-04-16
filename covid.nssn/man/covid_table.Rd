@@ -2,9 +2,11 @@
 \alias{covid_table}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
+Bivariate Tables for COVID-NSSN
 %%  ~~function to do ... ~~
 }
 \description{
+makes automatic bivariate tables without specifying type by variable class
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
