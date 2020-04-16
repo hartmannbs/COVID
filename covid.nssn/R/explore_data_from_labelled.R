@@ -1,11 +1,11 @@
 explore_data_from_labelled <-
-function(dt, var_list = NULL) {
-  dt <- data.table::as.data.table(dt)
+function(data, var_list = NULL) {
+  data <- data.table::as.data.table(dt)
   if (is.null(var_list) == FALSE) { #subset to variable list
-    dt <- dt[, var_list, with=FALSE]
+    data <- data[, var_list, with=FALSE]
   } else {
-    dt <- dt
+    data <- data
   }
-  dt <- label_to_factor(dt) # convert from spss format to burro useable
-  burro::explore_data(dt) # launch shiny app
+  data <- label_to_factor(data) # convert from spss format to burro useable
+  burro::explore_data(data) # launch shiny app
 }

@@ -1,9 +1,9 @@
 covid_skim <-
-function(dt, var_list = NULL) {
-  dt<-data.table::as.data.table(dt)
+function(data, var_list = NULL) {
+  data <- data.table::as.data.table(data)
   if (is.null(var_list) == FALSE) { # if variable list specify subset data
-    dt <- dt[, var_list, with=FALSE]
-  } else { dt <- dt } # if not ignore
-  dt <- dtplyr::lazy_dt(dt)
-  skimr::skim(dt)
+    data <- data[, var_list, with=FALSE]
+  } else { data <- data } # if not ignore
+  data <- dtplyr::lazy_dt(data)
+  skimr::skim(data)
 }
